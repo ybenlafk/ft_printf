@@ -6,7 +6,7 @@
 /*   By: ybenlafk <ybenlafk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/04 11:37:17 by ybenlafk          #+#    #+#             */
-/*   Updated: 2022/11/04 11:45:38 by ybenlafk         ###   ########.fr       */
+/*   Updated: 2022/11/07 12:14:56 by ybenlafk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ void	ft_adress(unsigned long long p, int *len)
 {
 	unsigned long long	ptr;
 
-	ptr = (unsigned long long)p;
+	ptr = p;
 	ft_putstr("0x", len);
 	ft_hex(ptr, len);
 }
